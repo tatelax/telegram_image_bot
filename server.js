@@ -22,7 +22,7 @@ bot.command('img', (function (ctx, next) {
         if (error) {
             console.log(error);
         } else {
-            var index = getRandomInt(0, results.length)
+            var index = getRandomInt(0, results.length - 1)
             var selectedResult
 
             try {
